@@ -1,0 +1,178 @@
+/*configurando caracteristicas da tag <div>
+    Usada para separar as questões*/
+div {
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+/* Configurando caracteristicas da tag <p> 
+   a partir das especificações da questão 1*/
+p {
+    border-left: 20em solid green;
+    border-right: 20em solid red;
+    width: 60%;
+    height: 400px;
+    font-size: 12px;
+    letter-spacing: 3em;
+    word-spacing: 4ex;
+    /*height-block: 3em;*/
+    text-align: justify;
+    font-family: Verdana;
+    text-indent: 25px;
+}
+
+p:first-letter {
+    font-size: 36px;
+    color: blue;
+    text-decoration: overline;
+}
+
+p:first-line {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* Configurando caracteristicas classes para os links da questão 2 
+   a partir das especificações da questão*/
+/*letra A*/
+.primeiro {
+    text-decoration: none;
+}
+
+/*letra B*/
+.segundo {
+    text-decoration: overline;
+}
+
+.segundo:active {
+    text-decoration: line-through;
+}
+
+.segundo:visited {
+    text-decoration: underline;
+}
+
+/*letra C*/
+.terceiro {
+    text-decoration: none;
+    color: orange;
+}
+
+.terceiro:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+/*letra D*/
+.quarto {
+    text-decoration: none;
+    border: solid 1px blue;
+    background-color: black;
+    color: white;
+}
+
+.quarto:hover {
+    text-decoration: none;
+    border: 1px dotted black;
+    background-color: white;
+    color: black;
+}
+
+/*letra E*/
+.quinto {
+    text-decoration: none;
+    color: red;
+}
+
+.quinto:visited {
+    text-decoration: none;
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.quinto:hover {
+    text-decoration: underline;
+}
+
+.quinto:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* Configurando caracteristicas das classes utilizadas nas imagens da questão 3*/
+/*Imagem 1 - Adidas*/
+/*Deixar a imagem verde ao passar o mouse em cima*/
+.primeira:hover {
+    
+}
+
+/*Imagem 2 - Mastercard*/
+/*Inverter as cores da imagem ao passar o mouse em cima*/
+.segunda:hover {
+    
+}
+
+/* Configurando caracteristicas das classes utilizadas nos 
+    componentes da questão 4*/
+.topoGlobo {
+    width: 99.5%;
+    height: 20%;
+    border: 1px solid blue;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+    word-spacing: 20px;
+    vertical-align: middle;
+    color: blue;
+}
+
+.topoGlobo a {
+    color: blue;
+    text-decoration: none;
+}
+
+.topoGlobo a:hover {
+    text-decoration: overline;
+}
+
+.topoGlobo b {
+    font-size: 40px;
+}
+
+.topoGlobo .not{
+    color: red;
+}
+
+.topoGlobo .esp{
+    color: greenyellow;
+}
+
+.topoGlobo .ent{
+    color: orange;
+}
+
+/* Configurando caracteristicas de listas conforme a questão 5*/
+
+ul {
+    list-style-image: url(setaVermelha.png);
+    list-style-position: inside;
+    color: red;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+li {
+    border-bottom: 1px dashed red;
+}
+
+ul li:hover {
+    list-style-image: url(setaVerde.png);
+    color: green;
+    list-style-position: inside;
+    border-bottom: 1px dashed green;
+}
