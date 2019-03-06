@@ -2,7 +2,7 @@
     Usadas para separar as questões*/
 .topico {
     width: 900px;
-    height: 300px;
+    height: 310px;
     margin: 0 auto;
     margin-bottom: 10px;
     border: 1px solid black;
@@ -105,12 +105,22 @@ p:first-line {
 
 /* Configurando caracteristicas das classes utilizadas nas imagens da questão 3*/
 /*Imagem 1 - Adidas*/
+.adidas {
+    width: 260px;
+    height: 208px;
+    background-image: url(adidas.png);
+}
 /*Substitui por uma imagem verde ao passar o mouse em cima*/
 .adidas:hover {
     background-image: url(adidasVerde.png);
 }
 
 /*Imagem 2 - Mastercard*/
+.mastercard {
+    width: 270px;
+    height: 170px;
+    background-image: url(mastercard.png);
+}
 /*Substitui por uma imagem com as cores invertidas ao passar o mouse em cima*/
 .mastercard:hover {
     background-image: url(mastercardInvertido.png);
@@ -157,7 +167,6 @@ p:first-line {
 }
 
 /* Configurando caracteristicas de listas conforme a questão 5*/
-
 ul {
     list-style-image: url(setaVermelha.png);
     list-style-position: inside;
@@ -177,21 +186,24 @@ ul li:hover {
     border-bottom: 1px dashed green;
 }
 
+/* Configurando atributos para montar a questão 6*/
+/* Montando apresentação inicial*/
 .questaoSeis div a{
     width: 180px;
     height: 90px;
-    margin: 8px;
+    margin: 10px;
     text-align: center;
     font-size: 24px;
     font-family: cursive;
     color: brown;
 }
-
+/* Montando apresentação ao passar o mouse em cima*/
+/* Colocando o texto do Link em negrito*/
 .questaoSeis a:hover {
     font-weight: bold;
 }
-
+/* Colocando uma borda ao redor da imagem*/
 .questaoSeis img:hover {
     border: 8px solid brown;
-    border-radius: 8px;
+    border-radius: 6px;
 }
